@@ -4,4 +4,23 @@ body {
         "Ubuntu", "Cantarell", "Fira Sans", "Droid Sans", "Helvetica Neue", sans-serif;
     -webkit-font-smoothing: antialiased;
     -moz-osx-font-smoothing: grayscale;
+    background: #553055;
+}
+
+.App {
+    width: 90vw;
+    max-width: 700px;
+    margin: 20px auto;
+    color: #eee;
+    background: #4c2a4c;
+}
+
+.navbar {
+    padding: 10px 20px;
+    background: #6d3d6d;
+    text-align: center;
+}
+
+.navbar h1 {
+    margin: 10px 0;
 }
