@@ -1,15 +1,15 @@
 {
   "files": {
-    "main.css": "/react-booklist/static/css/main.bec45eb1.css",
+    "main.css": "/react-booklist/static/css/main.b9cd76ac.css",
     "main.js": "/react-booklist/static/js/main.6b161cd8.js",
     "static/js/787.e09ac9f1.chunk.js": "/react-booklist/static/js/787.e09ac9f1.chunk.js",
     "index.html": "/react-booklist/index.html",
-    "main.bec45eb1.css.map": "/react-booklist/static/css/main.bec45eb1.css.map",
+    "main.b9cd76ac.css.map": "/react-booklist/static/css/main.b9cd76ac.css.map",
     "main.6b161cd8.js.map": "/react-booklist/static/js/main.6b161cd8.js.map",
     "787.e09ac9f1.chunk.js.map": "/react-booklist/static/js/787.e09ac9f1.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.bec45eb1.css",
+    "static/css/main.b9cd76ac.css",
     "static/js/main.6b161cd8.js"
   ]
 }
