@@ -39,17 +39,23 @@ body {
 }
 
 .book-list li {
+    position: relative;
     padding: 10px;
     border-radius: 4px;
     margin: 10px 0;
     background: #6d3d6d;
     transition: all 0.5s ease-in-out;
-    cursor: pointer;
+    overflow: hidden;
 }
 
-.book-list li:hover {
-    opacity: 0.7;
+.book-list li:hover p {
+    opacity: 0.1;
     text-decoration: line-through;
+}
+
+.book-list p {
+    margin: 0;
+    transition: all 0.5s ease-in-out;
 }
 
 .book-list .title {
@@ -63,6 +69,35 @@ body {
     color: #ddd;
     font-size: 0.9em;
     text-transform: capitalize;
+}
+
+.book-list button {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    display: block;
+    padding: 6px 20px;
+    border: 0;
+    border-radius: 4px;
+    margin: 0;
+    color: #6d3d6d;
+    background: #eee;
+    text-transform: capitalize;
+    visibility: hidden;
+    transition: all 0.9s ease-in-out;
+    transform: translate(-100vw, -50%);
+    cursor: pointer;
+}
+
+.book-list li:hover button {
+    visibility: visible;
+    transform: translate(-50%, -50%);
+}
+
+.book-list button:hover {
+    border-radius: 6px;
+    color: #fff;
+    background: #4c2a4c;
 }
 
 .empty {
@@ -85,6 +120,7 @@ input[type="text"] {
     margin: 6px 0;
     color: #fff;
     background: #3c1f3c;
+    text-transform: capitalize;
 }
 
 input[type="submit"] {
